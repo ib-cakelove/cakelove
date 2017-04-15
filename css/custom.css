@@ -1,0 +1,172 @@
+
+@font-face { font-family: Great Vibes; src: url(../font/GreatVibes-Regular.ttf); }
+@font-face { font-family: Sweetly_Broken; src: url(../font/Sweetly_Broken.ttf); }
+@font-face { font-family: September_Mornings; src: url(../font/September_Mornings.ttf); }
+
+ html,body { height: 100vh; }
+
+.main_bg_color{
+  background-color: #1e88e5 !important;
+}
+
+.main_color{
+  color: #1e88e5;
+}
+
+.main_bg_color_2{
+  background: #1976d2;
+}
+
+.font_great_vibes{
+  font-family: Great Vibes;
+  
+}
+
+.font_september_mornings{
+  font-family: September_Mornings;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.slider {
+  height: 92vh !important;
+}
+
+.slides  {
+    height: 87vh !important;
+}
+
+
+/*Mobile Menu Icon */
+.button-collapse {
+  color: #f3e5f5;
+}
+
+
+.parallax-container {
+  min-height: 60vh;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+
+#scrollup:hover {
+    -webkit-transform:scale(1.4); /* Safari and Chrome */
+    -moz-transform:scale(1.4); /* Firefox */
+    -ms-transform:scale(1.4); /* IE 9 */
+    -o-transform:scale(1.4); /* Opera */
+     transform:scale(1.4);
+}
+
+
+.header_navigation:hover{
+	background-color: transparent !important;
+}
+
+.header_navigation{
+	padding-top: 0.7em !important;
+}
+
+#master_detail_row{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0 !important;
+    position: fixed;
+}
+
+#detail_view{
+	/*min-height: 100vh; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#master_view{
+  height:100%; 
+  padding: 0px;
+  overflow: hidden !important;
+}
+
+#master_view a {
+    padding-left: 1em;
+    font-size: 1rem; 
+    display: block;
+    height: 64px;
+    line-height: 64px;
+    color: white;
+    font-size: 16px;
+}
+
+#master_view li {
+    float: none;
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+#master_view a:hover, #master_view li:hover, #master_view li.active {
+    background-color: #0d47a1;
+}
+
+/*grid gallery icons */
+.icon {
+    color: slategrey !important;
+}
+
+/*
+#top_header {
+    opacity: 0.9;
+    z-index: 60;
+    position: fixed;
+}
+*/
+
+.card-panel{
+  padding: 60px;
+}
+
+.responsive_image{
+  width: 100%;
+  background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #1e88e5;
+}
+
+.imageContainer{
+  margin-bottom: 50px !important;
+}
+
+.userView{
+  height: 140px;
+  margin-bottom: 30px !important;
+}
+
+/* Smartphone */
+@media only screen and (max-width: 1000px) {
+  #bodyImage1{
+    content:url("../images/home/body/1_m.jpg");
+    height: 500px;
+  }
+
+  .grid figure{
+    padding: 4px !important;
+  }
+
+  .grid-wrap {
+      padding-top: 20px !important;
+  }
+
+}

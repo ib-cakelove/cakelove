@@ -1,0 +1,6 @@
+/cake_project_files/*
+cake_project_files/*
+cake_project_files
+node_modules
+/node_modules/*
+/.git/
