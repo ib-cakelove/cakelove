@@ -169,4 +169,8 @@ h3 {
       padding-top: 20px !important;
   }
 
+  .icon nav-close{
+      z-index: 100;
+  }
+
 }
