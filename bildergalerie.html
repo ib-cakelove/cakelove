@@ -11,6 +11,7 @@
     <!--Import Grid Gallery -->
     <link rel="stylesheet" type="text/css" href="css/grid_gallery.css" />
 
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -177,6 +178,8 @@
 
 
 
+
+
       </div>
     </div>
 
@@ -196,22 +199,20 @@
     <script src="js/grid_gallery/cbpGridGallery.js"></script>
 
     <script src="js/init.js"></script>  
-    
+
+ 
     <script>
       var grid = new CBPGridGallery(document.getElementById('grid-gallery'));
 
       $(function() {
         $("img.lazy").lazyload({
-            event : "click"
+            container: $(".later_load_container")
         });
-        
+
       });
-
-
-
     </script>
 
-  <!--
+   <!--  
     <script src="js/init_bildergallerie_small.js"></script>  
 -->
   </body>
